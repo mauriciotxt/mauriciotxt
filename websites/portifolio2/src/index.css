@@ -77,21 +77,6 @@
         border-radius: 4px;
         margin-top: 60px;
       }
-      .profile-content .head .image {
-        background-color: white;
-        background-image: url(gtakjs.html);
-        background-size: cover;
-        border-radius: 50%;
-        background-repeat: no-repeat;
-        background-position: center center;
-        box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.2),
-          0 0 2px 0 rgba(0, 0, 0, 0.1);
-        margin: 0 auto;
-        margin-top: -60px;
-        margin-bottom: 20px;
-        width: 120px;
-        height: 120px;
-      }
       .profile-content .head .name {
         font-size: 20px;
         line-height: 1.2;
