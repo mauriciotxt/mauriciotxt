@@ -394,7 +394,6 @@ a:focus {
 	line-height: 31px;
 	font-weight: bold;
 	letter-spacing: 3px;
-	background-color: rgb(90, 190, 223);
 	color: rgb(255, 255, 255);;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
@@ -409,7 +408,7 @@ a:focus {
 	line-height: 31px;
 	font-weight: bold;
 	letter-spacing: 3px;
-	color: rgb(31, 23, 23);;
+	color: rgb(255, 255, 255);;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
@@ -417,6 +416,20 @@ a:focus {
 }
 
 .head-titlenc {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	line-height: 31px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+}
+
+.head-title-qm {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
