@@ -387,14 +387,29 @@ a:focus {
 	margin: 0;
 }
 
-.head-titlea {
+.head-title-am {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 	line-height: 31px;
 	font-weight: bold;
 	letter-spacing: 3px;
-	color: rgb(251, 255, 0));
+	background-color: rgb(90, 190, 223);
+	color: rgb(255, 255, 255);;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+}
+
+.head-title-co {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	line-height: 31px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: rgb(31, 23, 23);;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
