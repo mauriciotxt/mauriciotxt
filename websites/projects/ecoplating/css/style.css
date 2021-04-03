@@ -380,7 +380,63 @@ a:focus {
 	line-height: 31px;
 	font-weight: bold;
 	letter-spacing: 3px;
-	color: #fff;
+	color: rgb(34, 33, 33);
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+}
+
+.head-title-am {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	line-height: 31px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: rgb(255, 255, 255);;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+}
+
+.head-title-co {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	line-height: 31px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: rgb(255, 255, 255);;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+}
+
+.head-titlenc {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	line-height: 31px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+}
+
+.head-title-qm {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	line-height: 31px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
@@ -608,6 +664,19 @@ a:focus {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	background-size: cover;					
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 /* ----------------------------------------------------
