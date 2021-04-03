@@ -92,7 +92,7 @@
                 }
             }, b = e("react"), y = f(b), g = e("./search"), v = f(g), _ = e("./card"), w = f(_), E = function (e) {
                 function t(e) {
-                    d(this, t), m(Object.getPrototypeOf(t.prototype), "constructor", this).call(this, e), this.state = {movieID: 157336}
+                    d(this, t), m(Object.getPrototypeOf(t.prototype), "constructor", this).call(this, e), this.state = {movieID: 299536}
                 }
 
                 return p(t, e), h(t, [{
@@ -290,7 +290,7 @@
                     if (null === l) return;
                     e = l, t = i, n = a, o = !0, s = l = void 0
                 }
-            }, b = e("react"), y = f(b), g = e("react-dom"), v = (f(g), "./images/tmdb.svg"), _ = function (e) {
+            }, b = e("react"), y = f(b), g = e("react-dom"), v = (f(g), "./images/tmdb.png"), _ = function (e) {
                 function t() {
                     d(this, t), m(Object.getPrototypeOf(t.prototype), "constructor", this).apply(this, arguments)
                 }
@@ -314,7 +314,7 @@
                             onClick: this.handleChange,
                             className: "searchbox__input typeahead form-control",
                             type: "text",
-                            placeholder: "Search Movie Title...",
+                            placeholder: "Search Movie Title Here",
                             id: "q"
                         })))))
                     }
