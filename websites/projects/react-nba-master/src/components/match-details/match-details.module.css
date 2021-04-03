@@ -1,0 +1,78 @@
+
+
+@keyframes fade-in {
+    0%   {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.row {
+    display: flex;
+}
+.loading {
+    top: 200px;
+}
+
+.grid {
+    margin: 0 !important;   
+    animation: fade-in 0.5s; 
+
+}
+.gameStats {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.playerStats {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.playerStats :focus {
+    outline:none;
+}
+@media (min-width: 770px) {
+    .playerscol {
+        margin-top: 0px;
+        padding: 15px;
+        margin: auto;
+        min-width: 470px;
+    }
+    .container {
+        margin: 0;
+        margin: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .container-placeholder {
+        height: calc(85vh - 60px);
+        padding: 30px;
+        text-align: center;
+    }
+}
+@media (max-width: 770px) {
+    .playerStats {
+        display: block !important;
+        width: 100% !important;
+    }
+    .playerscol {
+        padding: 0px;
+        min-width:100%;
+    }
+    .container {
+        margin: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        
+    }
+    .container-placeholder {
+        height: calc(85vh - 30px);
+        padding: 30px;
+        text-align: center;
+    }
+}

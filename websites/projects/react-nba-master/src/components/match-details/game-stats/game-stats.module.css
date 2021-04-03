@@ -1,0 +1,113 @@
+.GameScoreSummary {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.GameScoreSummary .teamName {
+    min-width: 150px;
+    padding-right: 15px;
+}
+.GameScoreSummary .header {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    border-bottom: 1px solid #00000030;
+}
+.livebar {
+    width: 200px;
+    margin: auto;
+    margin-top: 25px;
+}
+.container{
+    margin: 1rem;
+    margin-bottom: 0px;
+    align-items: center;
+    text-align: center;
+}
+.bar {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.teamName {
+    min-width: 20%;
+} 
+.image {
+    width:100%;
+    height:100%;
+    max-width: 150px;
+    max-height: 150px;
+    animation: fade-in 0.75s; 
+}
+.score {
+    font-size: 2.5vw;
+}
+
+@keyframes fade-in {
+    0%   {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 770px) {
+    .GameScoreSummary ul {
+        list-style-type: none;
+        padding-left: 0px;
+        text-align: start;
+    }
+    .GameScoreSummary li {  
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left : 15px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 1rem;
+        
+    }
+    .GameScoreSummary label {
+        text-align: start;
+        flex-wrap: nowrap;
+        min-width: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 770px) {
+    .GameScoreSummary {
+        width: 100%;
+    }
+    .GameScoreSummary ul {
+        list-style-type: none;
+        padding-left: 0px;
+        text-align: start;
+        width: 100%;
+    }
+    .GameScoreSummary li {  
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding-left : 0px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 1rem;
+        
+    }
+    .GameScoreSummary label {
+        text-align: start;
+        flex-wrap: nowrap;
+        min-width: 30px;
+        width: 30px;
+    }
+    .score {
+        font-size: 1.5rem;
+    }
+    .headerTeamName {
+        font-size: 1.25rem;
+    } 
+    .middleCol h3{
+        font-size: 1rem;
+    }
+    
+}
