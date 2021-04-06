@@ -380,63 +380,7 @@ a:focus {
 	line-height: 31px;
 	font-weight: bold;
 	letter-spacing: 3px;
-	color: rgb(34, 33, 33);
-	text-transform: uppercase;
-	-webkit-font-smoothing: antialiased;
-	padding: 0;
-	margin: 0;
-}
-
-.head-title-am {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	line-height: 31px;
-	font-weight: bold;
-	letter-spacing: 3px;
-	color: rgb(255, 255, 255);;
-	text-transform: uppercase;
-	-webkit-font-smoothing: antialiased;
-	padding: 0;
-	margin: 0;
-}
-
-.head-title-co {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	line-height: 31px;
-	font-weight: bold;
-	letter-spacing: 3px;
-	color: rgb(255, 255, 255);;
-	text-transform: uppercase;
-	-webkit-font-smoothing: antialiased;
-	padding: 0;
-	margin: 0;
-}
-
-.head-titlenc {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	line-height: 31px;
-	font-weight: bold;
-	letter-spacing: 3px;
-	color: rgb(255, 255, 255);
-	text-transform: uppercase;
-	-webkit-font-smoothing: antialiased;
-	padding: 0;
-	margin: 0;
-}
-
-.head-title-qm {
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	line-height: 31px;
-	font-weight: bold;
-	letter-spacing: 3px;
-	color: rgb(255, 255, 255);
+	color: #fff;
 	text-transform: uppercase;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
@@ -664,19 +608,6 @@ a:focus {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	background-size: cover;					
-}
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:30%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
 }
 
 /* ----------------------------------------------------
@@ -1744,3 +1675,51 @@ iframe{
 .tp-caption a{
 	color: #fff !important; 
 }
+   img.displayed {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+    }
+	       h2.cab {
+                color: rgb(31, 31, 31);
+            }
+			img.cli1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            img.cli2{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+			}
+			h3.ex{
+				
+				margin-left: auto;
+				margin-right: auto;
+				width: 14em;
+				color: white;
+			}
+			h2.cli {
+				margin-left: auto;
+				margin-right: auto;
+				width: 18em;
+			}
+			h2.sob {
+				margin-left: auto;
+				margin-right: auto;
+				width: 18em;
+			}
+			img.ser {
+				display: block;
+                margin-left: auto;
+                margin-right: auto;
+				margin-top: 40px; 
+			}
+				div#responsive-imgs img {
+					display: block;
+					margin: 5px auto;
+					max-width: 100%;
+				}
+        
