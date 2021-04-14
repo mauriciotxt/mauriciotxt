@@ -5,7 +5,7 @@
 		$phone=$_POST['phone'];
 		$msg=$_POST['comments'];
 
-		$to='xyz.123@mail.com'; // Receiver Email ID, Replace with your email ID
+		$to='teste@ecoplating.com.br'; // Receiver Email ID, Replace with your email ID
 		$subject='Form Submission';
 		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$comments;
 		$headers="From: ".$email;
